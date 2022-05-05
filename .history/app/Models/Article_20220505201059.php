@@ -2,20 +2,24 @@
 
 namespace App\Models;
 
-use App\Models\Article;
+use App\Models\Comment;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Comment extends Model
+class Article extends Model
 {
     use HasFactory;
-    //protected $guarded = [];
+    protected $guarded = [];
 
-    
-    
-    // public function article()
+
+    public function getComment()
+    {
+        return $this->hasOne('App\Models\Comment',);
+    }
+
+    // public function comments()
     // {
-    //     return $this->hasMany(Article::class, 'parent_id');
+    //     return $this->morphMany(Comment::class, 'commentable')->whereNull('parent_id');
     // }
 
     /**
@@ -24,7 +28,7 @@ class Comment extends Model
      * @var array
      */
     protected $fillable = [
-         'subject', 'body',
+         'title', 'description',
     ];
 
     /**

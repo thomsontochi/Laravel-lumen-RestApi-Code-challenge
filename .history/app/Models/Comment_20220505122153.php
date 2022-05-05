@@ -11,9 +11,12 @@ class Comment extends Model
     use HasFactory;
     //protected $guarded = [];
 
+    public function article()
+    {
+        return $this->belongsTo(Article::class);
+    }
     
-    
-    // public function article()
+    // public function replies()
     // {
     //     return $this->hasMany(Article::class, 'parent_id');
     // }

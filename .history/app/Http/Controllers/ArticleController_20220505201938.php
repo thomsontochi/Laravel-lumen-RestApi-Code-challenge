@@ -15,7 +15,7 @@ class ArticleController extends Controller
     }
     public function showOneComment(){
         $comment = Article::with('getCommentRelation')->get();
-        return response()->json($comment);
+        return response()->json($comment)
     }
 
 

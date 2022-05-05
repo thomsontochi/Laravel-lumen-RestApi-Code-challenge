@@ -11,7 +11,10 @@ class Comment extends Model
     use HasFactory;
     //protected $guarded = [];
 
-    
+    public function getComment()
+    {
+        return $this->hasOne(App\ModelsArticle);
+    }
     
     // public function article()
     // {
