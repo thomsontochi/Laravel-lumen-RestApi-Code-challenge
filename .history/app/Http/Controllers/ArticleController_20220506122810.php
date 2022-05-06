@@ -13,7 +13,7 @@ class ArticleController extends Controller
     public function showOneArticle($id){
         return response()->json(Article::find($id));
     }
-    public function showCommentRelation(){
+    public function showComent(){
         //get comment related to article
         $comment = Article::with('getCommentRelation')->get();
         return response()->json($comment);

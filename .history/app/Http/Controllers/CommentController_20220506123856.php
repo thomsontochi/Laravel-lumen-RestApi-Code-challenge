@@ -11,7 +11,7 @@ class CommentController extends Controller
    public function updateComment($id, Request $request){
     //Adds a comment to the item. This updates the "Comments" field of the item.
 
-    $updateComment = ModelsComment::findorFail($id);
+    $comment = ModelsComment::findorFail($id);
 
     $updateComment->update($request->all());
 

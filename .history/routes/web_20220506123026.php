@@ -23,7 +23,7 @@ $router->group(['prefix' => 'api'], function () use ($router) {
   
     $router->get('article/{id}', ['uses' => 'ArticleController@showOneArticle']);
 
-    $router->get('/articles_comment', ['uses' => 'ArticleController@showCommentRelation']);
+    $router->get('/articles_comment', ['uses' => 'ArticleController@']);
 
     $router->get('/articles/{id}/comment', ['uses' => 'CommentController@UpdateComment']);
 
