@@ -1,0 +1,2169 @@
+[2022-05-17 10:56:46] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1089
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(886): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array)
+#3 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#4 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\Cont...')
+#6 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1089
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(886): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array)
+#3 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#4 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\Cont...', Array)
+#5 Command line code(1): app('Illuminate\\\\Cont...')
+#6 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1089)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:56:46] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:56:46] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:56:46] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:56:47] local.ERROR: Uncaught Error: Call to undefined method Laravel\Lumen\Application::langPath() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined method Laravel\\Lumen\\Application::langPath() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:57:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:58:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 10:59:24] local.ERROR: Command "serve" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"serve\" is not defined. at /Users/austinopia/sites/blog/vendor/symfony/console/Application.php:709)
+[stacktrace]
+#0 /Users/austinopia/sites/blog/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find('serve')
+#1 /Users/austinopia/sites/blog/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/console/Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Users/austinopia/sites/blog/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2022-05-17 10:59:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:00:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:01:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:02:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:03:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:04:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:05:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:06:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:06:45] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:07:07] local.ERROR: Attempt to assign property "subject" on string {"exception":"[object] (Error(code: 0): Attempt to assign property \"subject\" on string at /Users/austinopia/sites/blog/app/Http/Controllers/CommentController.php:89)
+[stacktrace]
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/BoundMethod.php(36): App\\Http\\Controllers\\CommentController->updateComment('1')
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Laravel\\Lumen\\Application), Array, Object(Closure))
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(Laravel\\Lumen\\Application), Array, Array, NULL)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(389): Illuminate\\Container\\Container->call(Array, Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(355): Laravel\\Lumen\\Application->callControllerCallable(Array, Array)
+#7 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(329): Laravel\\Lumen\\Application->callLumenController(Object(App\\Http\\Controllers\\CommentController), 'UpdateComment', Array)
+#8 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(282): Laravel\\Lumen\\Application->callControllerAction(Array)
+#9 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(267): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute(Array)
+#10 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(237): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#11 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->handleDispatcherResponse(Array)
+#12 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#15 /Users/austinopia/sites/blog/public/index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2022-05-17 11:07:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:08:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:09:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:10:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:11:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:12:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:13:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:14:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:15:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:16:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:16:45] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:17:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:17:54] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:18:11] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:18:36] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:18:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:18:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:19:22] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:19:29] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:19:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:19:51] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:02] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:21] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:27] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:32] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:44] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:20:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:21:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:22:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:23:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:24:42] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:24:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:25:37] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:25:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:26:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:26:45] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:27:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:28:31] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:28:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:29:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:30:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:31:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:32:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:33:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:34:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:35:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:35:46] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:36:31] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:36:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:36:45] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:36:53] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:37:10] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:37:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:37:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:38:03] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:38:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:39:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:40:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:41:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:42:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:43:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:44:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:45:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:46:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:46:44] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:47:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:48:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:49:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:50:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:51:45] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:52:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:52:27] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:52:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:53:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:54:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:55:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:56:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:56:44] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:56:48] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:56:59] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:57:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:58:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 11:59:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:00:44] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:12:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:12:31] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:13:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:14:23] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:14:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:14:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:14:31] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:14:42] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:30)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:15:06] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:15:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:15:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:16:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:16:29] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:16:38] local.ERROR: syntax error, unexpected variable "$router" {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): syntax error, unexpected variable \"$router\" at /Users/austinopia/sites/blog/routes/web.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:16:49] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:17:00] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:17:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:17:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:17:30] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:17:37] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:18:05] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:18:19] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:18:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:19:22] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:19:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:19:42] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:19:53] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:20:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:21:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:22:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:22:29] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:23:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:24:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:24:38] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:24:44] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:25:29] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:25:38] local.ERROR: Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to a member function getRoutes() on array in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:26:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:27:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:28:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:29:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:30:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:31:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:32:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:32:30] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:33:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:34:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:35:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:36:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:37:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:38:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:39:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:40:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:41:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:42:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:42:30] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:43:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:44:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:45:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:46:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:47:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:48:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:49:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:50:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:51:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:52:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:52:30] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:53:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:54:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:55:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:56:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:57:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:58:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 12:59:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:00:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:01:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:02:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:02:30] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:03:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:04:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:05:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:06:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:07:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:08:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:09:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:10:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:11:30] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:12:31] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:12:31] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:13:32] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:14:36] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:15:39] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:16:36] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:17:34] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:18:35] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:20:03] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-17 13:20:37] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 

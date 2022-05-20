@@ -1,0 +1,778 @@
+[2022-05-07 00:26:42] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 00:26:42] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 02:26:54] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 02:26:54] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 02:27:52] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 04:28:07] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 04:28:07] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 04:29:02] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 06:14:11] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 06:14:11] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:08:56] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:08:56] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:09:55] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:25:14] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:25:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:26:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:27:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:36:14] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:36:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 08:37:14] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:07:18] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:07:18] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:08:18] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:23:55] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:23:55] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:41:39] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 09:41:39] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 10:04:16] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 10:04:16] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 12:04:39] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 12:04:39] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 12:05:39] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 14:05:43] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 14:05:43] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 14:06:43] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 16:06:50] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 16:06:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 16:07:50] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 18:07:54] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 18:07:54] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 18:08:54] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 20:08:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 20:08:58] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 20:09:58] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 20:28:05] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 20:28:05] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 22:05:24] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 22:05:24] local.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\View\Compilers\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\Container\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\Container\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\Container\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\Container\Container->build('Illuminate\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\Container\Container->resolve('Illuminate\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\Container\Container->make('Illuminate\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\Lumen\Application->make('Illuminate\\View...', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Unresolvable dependency resolving [Parameter #1 [ <required> $cachePath ]] in class Illuminate\\View\\Compilers\\Compiler in /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104
+Stack trace:
+#0 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(1011): Illuminate\\Container\\Container->unresolvablePrimitive(Object(ReflectionParameter))
+#1 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(946): Illuminate\\Container\\Container->resolvePrimitive(Object(ReflectionParameter))
+#2 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(908): Illuminate\\Container\\Container->resolveDependencies(Array)
+#3 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\View...')
+#4 /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php(694): Illuminate\\Container\\Container->resolve('Illuminate\\\\View...', Array)
+#5 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make('Illuminate\\\\View...', Array)
+#6 /Users/austinopia/sites/blog/vendor/laravel/lumen-framework/src/helpers.php(42): Laravel\\Lumen\\Application->make('Illuminate\\\\View...', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at /Users/austinopia/sites/blog/vendor/illuminate/container/Container.php:1104)
+[stacktrace]
+#0 {main}
+"} 
+[2022-05-07 22:06:21] local.ERROR: Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Error: Call to undefined function app_path() in Command line code:1
+Stack trace:
+#0 {main}
+  thrown at Command line code:1)
+[stacktrace]
+#0 {main}
+"} 
